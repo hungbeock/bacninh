@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    
+    height: auto;
+    margin: auto;
+   
+}
+
+.nav {
+    display: flex;
+    background: whitesmoke;
+    align-items: center;
+    font-weight:bold;
+}
+.nav li a {
+    padding: 16px;
+
+}
+.nav li:nth-child(1) {
+    margin-left: 16px;
+   
+    
+}
+.nav li a:hover{
+    background: white;
+}
+
+
+header{
+    text-align: center;
+    font-size: xx-large;
+    padding: 3%;
+    background-color: rgb(157, 208, 231);
+}
+#banner{
+    background-color: rgb(233, 132, 191);
+}
+#banner img{
+    width: 100%;
+
+}
+#banner h1{
+    padding: 3%;
+    text-align: justify;
+}
+#banner p{
+    padding: 3%;
+    font-size: 30px;
+    text-align: justify;
+   
+}
+#main-content img{
+    width: 100%;
+    height: 300px;
+    padding: 3%;
+}
+#main-content img:hover{
+    transform: scale(1.1);
+    transition-delay: 0.2s;
+    transition-timing-function: ease-in;
+}
+#main-content{
+    background-color: #efefef;
+}
+#main-content h1{
+    text-align: center;
+    margin: auto;
+    margin-top: -50px;
+    
+}
+video{
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    align-items: center;
+}
+
+#footer{
+    background-color: #f7f7f7;
+    text-align: justify;
+    margin-bottom: 10%;
+}
+@media screen and (max-width: 767px){
+    p {
+        font-size: 26px;
+    }
+    li{
+        font-size: 26px; 
+    }
+    
+    .nav {
+        background: whitesmoke;
+        text-align: center;
+        align-items: center;
+        
+    }
+    .nav a {
+        text-align: center;
+        margin: 0;
+        width: 100%;
+    }
+    .nav li {
+       
+        margin: 0px auto;
+        width: 100%;
+    }
+    .nav li:nth-child(1) {
+        
+       
+        
+    }
+    
+       
+
+}
+@media screen and (min-width: 768px) and (max-width: 992px){
+    p {
+        font-size: 20px;
+    }
+    li{
+        font-size: 20px; 
+    }
+    .nav {
+        display: flex;
+       
+        align-items: center;
+    }
+    .nav li a {
+        padding: 16px;
+    
+    }
+    .nav li:nth-child(1) {
+        margin-left: 16px;
+       
+        
+    }
+    .nav {
+        display: flex;
+        justify-content: space-around;
+       
+       background-color:pink;
+        align-items: center;
+        width: 100%;     
+       
+    }
+    
+
+}

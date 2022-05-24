@@ -1,0 +1,37 @@
+body{
+    width: 80%;
+    padding: 3%;
+    margin: auto;
+    text-align: justify;
+    background-color: seashell;
+}
+p{
+    font-size: 17px;
+}
+main{
+    margin-bottom: 5%;
+
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+@media screen and (max-width: 767px){
+    p {
+        font-size: 26px;
+    }
+    li{
+        font-size: 26px; 
+    }
+
+}
+@media screen and (min-width: 768px) and (max-width: 992px){
+    p {
+        font-size: 20px;
+    }
+    li{
+        font-size: 20px; 
+    }
+
+}
